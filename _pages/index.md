@@ -1,6 +1,6 @@
 ---
 title: "About"
-layout: single
+layout: home
 permalink: /
 author_profile: true
 ---
@@ -15,4 +15,7 @@ Hi! I’m Ilse — a data science professional with a background in investment b
 - 📍 **Location:** London
 - 💡 **Interests:** Machine learning, fintech, financial analytics
 - 💻 **Skills:** Python, SQL, scikit-learn, Pandas, TensorFlow, Time Series, NLP, Deep Learning
-- 🎓 **Education:** MSc Finance & Investments, Copenahgen Business School · BSc International Business Administration, Tilburg University
+- 🎓 **Education:** MSc Finance & Investments, Copenhagen Business School · BSc International Business Administration, Tilburg University
+
+
+<img src="/assets/images/bio-photo.jpg" style="border-radius: 10px; box-shadow: 5px 5px 15px rgba(0,0,0,0.3); padding: 5px; background-color: #f8f8f8;" alt="Profile Picture">
