@@ -5,18 +5,22 @@ permalink: /cv/
 ---
 
 <style>
-  .cv-header { margin-bottom: 2rem; }
-  .cv-header h1 { font-size: 2rem; margin-bottom: 0.5rem; }
-  .cv-contact p { margin: 0.2rem 0; }
-  .cv-section { margin-bottom: 2rem; }
-  .cv-section h2 { color: #2c3e50; border-bottom: 2px solid #eee; padding-bottom: 0.3rem; }
+  /* General Layout Tweaks */
+  .cv-header { margin-bottom: 1.5rem; text-align: center; } /* Center header */
+  .cv-header h1 { font-size: 1.8rem; margin-bottom: 0.3rem; } /* Reduce name size */
+  .cv-contact p { margin: 0.1rem 0; font-size: 0.95rem; } /* Compact contact info */
+
+  .cv-section { margin-bottom: 1.8rem; }
+  .cv-section h2 { font-size: 1.4rem; color: #2c3e50; border-bottom: 2px solid #eee; padding-bottom: 0.2rem; } /* Adjust heading size */
+
   .cv-table { width: 100%; border-collapse: collapse; }
-  .cv-table td, .cv-table th { padding: 0.4rem 0.5rem; vertical-align: top; }
-  .cv-table th { text-align: left; color: #444; }
-  .cv-table .cv-role { font-weight: bold; }
-  .cv-table .cv-location { color: #666; font-size: 0.95em; }
-  .cv-table .cv-dates { text-align: right; color: #888; white-space: nowrap; }
-  .cv-bullets { margin: 0.3em 0 0.7em 1em; }
+  .cv-table td, .cv-table th { padding: 0.4rem 0.5rem; vertical-align: top; font-size: 0.95rem; } /* Uniform font size */
+
+  .cv-role { font-weight: bold; } /* Only bold job titles */
+  .cv-location { color: #666; font-size: 0.9rem; } /* Slightly smaller for contrast */
+  .cv-dates { text-align: right; color: #888; white-space: nowrap; }
+
+  .cv-bullets { margin: 0.3em 0 0.7em 1em; font-size: 0.95rem; } /* Ensure bullet points are consistent */
 </style>
 
 <div class="cv-header">
