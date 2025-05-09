@@ -3,6 +3,17 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+# Welcome to My Portfolio
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+Hi! I’m Ilse — a data science professional with a background in investment banking. I recently graduated from the Le Wagon Data Science & AI Bootcamp, and I'm passionate about transforming complex data into actionable insights. With a foundation in machine learning, analytics, and financial modeling, I’m now focused on bridging the gap between data and decision-making in tech and finance.
+
+---
+
+## Quick Facts
+
+- 📍 **Location:** London
+- 💡 **Interests:** Machine learning, fintech, financial analytics
+- 💻 **Skills:** Python, SQL, scikit-learn, Pandas, TensorFlow, Time Series, NLP, Deep Learning
+- 🎓 **Education:** MSc Finance & Investments, Copenahgen Business School · BSc International Business Administration, Tilburg University
+
+[connect on LinkedIn](https://www.linkedin.com/in/ilsehutten).
