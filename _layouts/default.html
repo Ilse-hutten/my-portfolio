@@ -4,19 +4,47 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }}</title>
+
+  <!-- Link to the theme's default CSS, if not already included -->
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+  <!-- Link to your custom CSS file for additional tweaks -->
   <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+
+  <!-- Optional: Include the favicon or other metadata -->
+  <link rel="icon" href="{{ '/assets/images/favicon.ico' | relative_url }}" type="image/x-icon">
 </head>
-<body>
+<body class="page-{{ page.title | downcase | replace: ' ', '-' }}">
+
+  <!-- Site header (you can customize this part as needed) -->
   <header>
-    <!-- Header Content -->
+    <nav>
+      <!-- Use Minimal Mistakes menu, or customize your own here -->
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/projects/">Projects</a></li>
+        <li><a href="/cv/">CV</a></li>
+      </ul>
+    </nav>
   </header>
 
+  <!-- Main content section where the page content is inserted -->
   <main>
     {{ content }}
   </main>
 
+  <!-- Footer content, you can add your custom footer or keep the theme's footer -->
   <footer>
-    <!-- Footer Content -->
+    <p>&copy; 2025 Ilse Hutten. All rights reserved.</p>
+    <p>
+      <a href="https://github.com/Ilse-hutten">GitHub</a> |
+      <a href="https://www.linkedin.com/in/ilsehutten/">LinkedIn</a>
+    </p>
   </footer>
+
+  <!-- Optional: Add JavaScript files (like for interactivity) -->
+  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+
 </body>
 </html>
