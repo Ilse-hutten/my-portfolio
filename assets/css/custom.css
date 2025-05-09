@@ -1,57 +1,18 @@
-/* Accent color for links */
-a, .archive__item-title, .masthead__menu-item a:hover {
+/* Minimal styling to test */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+a {
   color: #0077cc;
+  text-decoration: none;
 }
 
 a:hover {
   color: #005fa3;
-  text-decoration: none;
-}
-
-/* Header gradient */
-.page__hero--overlay {
-  background: linear-gradient(to right, #d1e9ff, #f7faff);
-  color: #000;
-}
-
-/* General text */
-body {
-  font-family: 'Segoe UI', Arial, sans-serif;
-  font-size: 0.98rem;
-  line-height: 1.7;
-}
-
-/* H2, H3 headers */
-h2, h3 {
-  margin-top: 2rem;
-  color: #2c3e50;
-  font-weight: 600;
-}
-
-/* Project card style */
-.project-card {
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
-  padding: 1rem;
-  margin-bottom: 1.5rem;
-  transition: box-shadow 0.2s;
-}
-
-.project-card:hover {
-  box-shadow: 0 4px 16px rgba(44, 62, 80, 0.16);
-}
-
-/* Featured block style */
-.feature__item {
-  border-radius: 10px;
-  background-color: #fdfdfd;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-  padding: 1.2rem;
-}
-
-/* Section styles */
-.cv-section {
-  margin-bottom: 2.5rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid #eee;
 }
