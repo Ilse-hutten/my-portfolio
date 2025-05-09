@@ -69,39 +69,36 @@ author:
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/Ilse-hutten"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/ilsehutten/"
 
-defaults:
+#defaults:
   # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+ # - scope:
+  #    path: ""
+   #   type: posts
+    #values:
+   #   layout: single
+    #  author_profile: true
+     # read_time: true
+      #comments: true
+    #  share: true
+     # related: true
   # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
+  #- scope:
+   #   path: "_pages"
+    #  type: pages
+   # values:
+    #  layout: single
+     # author_profile: true
 
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
+#category_archive:
+ # type: liquid
+ # path: /categories/
+#tag_archive:
+ # type: liquid
+  #path: /tags/
