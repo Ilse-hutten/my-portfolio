@@ -1,7 +1,7 @@
 ---
 permalink: projects/project-twitter-sentiment/
 title: "Stock Prediction with Twitter Sentiment"
-layout: single
+layout: default
 author_profile: true
 ---
 
