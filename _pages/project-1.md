@@ -1,5 +1,5 @@
 ---
-permalink: /project-twitter-sentiment/
+permalink: projects/project-twitter-sentiment/
 title: "Stock Prediction with Twitter Sentiment"
 layout: single
 author_profile: true

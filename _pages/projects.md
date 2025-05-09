@@ -4,7 +4,6 @@ title: "Projects"
 layout: single
 ---
 
-# Featured Projects
 
 Here are some of my recent data science and machine learning projects:
 

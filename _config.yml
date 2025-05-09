@@ -14,12 +14,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: "Ilse's Data Science Portfolio"
-email:
+email: huttenilse@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   "A showcase of my data science projects, machine learning models, and analytics skills."
 #twitter_username: username
 github_username: Ilse-hutten
 minimal_mistakes_skin: default
+sidebar:
+  - "profile"  # This enables the sidebar with profile picture
 search: true
 
 # Build settings

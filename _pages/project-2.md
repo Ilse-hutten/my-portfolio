@@ -1,5 +1,5 @@
 ---
-permalink: /project-pca-index-arbitrage/
+permalink: projects/project-pca-strategy/
 title: "Index Arbitrage Trading Strategy Using PCA"
 layout: single
 author_profile: true
