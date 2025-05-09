@@ -16,4 +16,4 @@ Hi! I’m Ilse — a data science professional with a background in investment b
 - 💻 **Skills:** Python, SQL, scikit-learn, Pandas, TensorFlow, Time Series, NLP, Deep Learning
 - 🎓 **Education:** MSc Finance & Investments, Copenahgen Business School · BSc International Business Administration, Tilburg University
 
-[connect on LinkedIn](https://www.linkedin.com/in/ilsehutten).
+#[connect on LinkedIn](https://www.linkedin.com/in/ilsehutten)
