@@ -62,15 +62,12 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Data scientist passionate about machine learning, analytics, and creating impact through data."
   links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/Ilse-hutten"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/ilsehutten/"
-
-footer:
-  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:huttenilse@gmail.com"
+    - label: "Phone"
+      icon: "fas fa-fw fa-phone"
+      url: "tel:+31610738270"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Ilse-hutten"

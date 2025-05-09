@@ -1,6 +1,6 @@
 ---
 title: "About"
-layout: home
+layout: single
 permalink: /
 author_profile: true
 ---
@@ -16,5 +16,3 @@ Hi! I’m Ilse — a data science professional with a background in investment b
 - 💡 **Interests:** Machine learning, fintech, financial analytics
 - 💻 **Skills:** Python, SQL, scikit-learn, Pandas, TensorFlow, Time Series, NLP, Deep Learning
 - 🎓 **Education:** MSc Finance & Investments, Copenahgen Business School · BSc International Business Administration, Tilburg University
-
-#[connect on LinkedIn](https://www.linkedin.com/in/ilsehutten)

@@ -5,22 +5,77 @@ permalink: /cv/
 ---
 
 <style>
-  /* General Layout Tweaks */
-  .cv-header { margin-bottom: 1.5rem; text-align: center; } /* Center header */
-  .cv-header h1 { font-size: 1.8rem; margin-bottom: 0.3rem; } /* Reduce name size */
-  .cv-contact p { margin: 0.1rem 0; font-size: 0.95rem; } /* Compact contact info */
+  /* Layout Tweaks */
+  .page__content {
+    max-width: 900px;
+    margin: auto;
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
 
-  .cv-section { margin-bottom: 1.8rem; }
-  .cv-section h2 { font-size: 1.4rem; color: #2c3e50; border-bottom: 2px solid #eee; padding-bottom: 0.2rem; } /* Adjust heading size */
+  body {
+    font-size: 0.95rem;
+  }
 
-  .cv-table { width: 100%; border-collapse: collapse; }
-  .cv-table td, .cv-table th { padding: 0.4rem 0.5rem; vertical-align: top; font-size: 0.95rem; } /* Uniform font size */
+  .cv-header { margin-bottom: 1.5rem; text-align: center; }
+  .cv-header h1 { font-size: 1.8rem; margin-bottom: 0.3rem; }
+  .cv-contact p { margin: 0.1rem 0; font-size: 0.95rem; }
 
-  .cv-role { font-weight: bold; } /* Only bold job titles */
-  .cv-location { color: #666; font-size: 0.9rem; } /* Slightly smaller for contrast */
-  .cv-dates { text-align: right; color: #888; white-space: nowrap; }
+  .cv-section {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #fdfdfd;
+    border: 1px solid #eee;
+    border-radius: 6px;
+  }
 
-  .cv-bullets { margin: 0.3em 0 0.7em 1em; font-size: 0.95rem; } /* Ensure bullet points are consistent */
+  .cv-section h2 {
+    font-size: 1.4rem;
+    color: #2c3e50;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 0.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .cv-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .cv-table td,
+  .cv-table th {
+    padding: 0.4rem 0.5rem;
+    vertical-align: top;
+    font-size: 0.95rem;
+  }
+
+  .cv-table td:first-child {
+    font-weight: normal;
+  }
+
+  .cv-role {
+    font-weight: bold;
+  }
+
+  .cv-location {
+    color: #666;
+    font-size: 0.9rem;
+  }
+
+  .cv-dates {
+    text-align: right;
+    color: #888;
+    white-space: nowrap;
+  }
+
+  .cv-bullets {
+    margin: 0.3em 0 0.7em 1em;
+    font-size: 0.95rem;
+  }
+
+  .cv-bullets li {
+    margin-bottom: 0.3rem;
+  }
 </style>
 
 <div class="cv-header">

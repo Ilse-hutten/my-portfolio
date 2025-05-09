@@ -20,4 +20,4 @@ This project uses Natural Language Processing (NLP) to analyze Twitter sentiment
 - Achieved 75% accuracy in predicting price movement.
 - Developed an automated system to update sentiment scores and predictions daily.
 
-[🔙 Back to Projects](./projects)
+[🔙 Back to Projects](/projects/)

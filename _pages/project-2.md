@@ -56,4 +56,4 @@ You can interact with the trading strategy live by visiting the **Streamlit app*
 
 ---
 
-[🔙 Back to Projects](./projects)
+[🔙 Back to Projects](/projects/)
