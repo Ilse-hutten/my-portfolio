@@ -6,24 +6,23 @@ classes: wide
 ---
 
 <style>
-  /* Ensure full-width content stays centered */
   .wide {
     max-width: none;
   }
 
   body {
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 15px;
+    font-size: 15px; /* Keep font size fixed */
     color: #232323;
-    line-height: 1.7;
+    line-height: 1.5; /* Slightly tighter line height */
     background-color: #ffffff !important;
     margin: 0;
   }
 
   .cv-wrapper {
     max-width: 900px;
-    margin: 60px auto;
-    padding: 2rem 2rem;
+    margin: 40px auto;      /* Reduce top/bottom margin */
+    padding: 1.2rem 1.2rem; /* Less padding */
     background: #fff;
     border-radius: 10px;
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
@@ -32,40 +31,41 @@ classes: wide
 
   .cv-header {
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1.2rem; /* Less space below header */
   }
 
   .cv-header h1 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 700;
     letter-spacing: 1px;
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.1rem;
     color: #1e293b;
   }
 
   .site-title {
-    display: none; /* Hide "CV" from navigation title if needed */
+    display: none;
   }
 
   .cv-contact {
-    font-size: 0.95rem;
+    font-size: 0.93rem;
     color: #52525b;
     display: inline-block;
     white-space: nowrap;
+    margin-bottom: 0.4rem;
   }
 
   .cv-section {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem; /* Less space between sections */
   }
 
   .cv-section h2 {
-    font-size: 1rem;
+    font-size: 0.98rem;
     font-weight: 700;
     color: #2563eb;
-    border-bottom: 1.5px solid #e5e7eb;
-    padding-bottom: 0.25rem;
-    margin-bottom: 1rem;
-    letter-spacing: 0.5px;
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 0.18rem;
+    margin-bottom: 0.6rem; /* Less space below headings */
+    letter-spacing: 0.4px;
     text-transform: uppercase;
   }
 
@@ -73,37 +73,37 @@ classes: wide
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.25rem; /* Less space between roles */
   }
 
   .cv-role-title {
     font-weight: 600;
     color: #1e293b;
-    font-size: 1rem;
+    font-size: 0.97rem;
   }
 
   .cv-organization {
     font-style: italic;
     color: #64748b;
-    font-size: 0.95rem;
+    font-size: 0.92rem;
   }
 
   .cv-description {
-    margin-left: 1rem;
-    font-size: 0.95rem;
+    margin-left: 0.7rem;
+    font-size: 0.93rem;
   }
 
   ul.cv-bullets {
-    margin: 0.3rem 0 0.5rem 1.2rem;
-    font-size: 0.95rem;
+    margin: 0.15rem 0 0.3rem 1.1rem; /* Less space for bullets */
+    font-size: 0.93rem;
     color: #374151;
   }
 
   .cv-footer {
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 0.88rem;
     color: #9ca3af;
-    margin-top: 2rem;
+    margin-top: 1.2rem; /* Less space above footer */
   }
 
   /* Responsive tweaks */
@@ -115,32 +115,29 @@ classes: wide
 
   @media (max-width: 600px) {
     .cv-wrapper {
-      padding: 1.1rem 0.5rem;
+      padding: 1rem 0.3rem;
     }
 
     .cv-role {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      flex-wrap: nowrap; /* Prevent wrapping */
-      gap: 1rem;
+      gap: 0.7rem;
     }
     .cv-role > div:last-child {
       white-space: nowrap;
       color: #6b7280;
-     font-size: 0.9rem;
-     min-width: 100px;
-    text-align: right;
+      font-size: 0.88rem;
+      min-width: 80px;
+      text-align: right;
     }
 
     .cv-contact {
       display: block;
       text-align: center;
-      line-height: 1.6;
+      line-height: 1.4;
       white-space: normal;
     }
   }
 </style>
+
 
 <div class="cv-wrapper">
   <div class="cv-header">
