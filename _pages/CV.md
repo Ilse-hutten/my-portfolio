@@ -47,7 +47,7 @@ classes: wide
   }
 
   .cv-contact {
-    font-size: 0.93rem;
+    font-size: 15px;
     color: #52525b;
     display: inline-block;
     white-space: nowrap;
@@ -70,12 +70,10 @@ classes: wide
   }
 
   .cv-role {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: nowrap;
-    margin-bottom: 0.25rem;
-    gap: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 0.25rem;
   }
 
   .cv-role-title {
@@ -108,12 +106,17 @@ classes: wide
     margin-top: 1.2rem;
   }
 
+  .cv-role > div:first-child {
+  flex: 1;
+  min-width: 0;
+  }
+
   .cv-role > div:last-child {
-    white-space: nowrap;
-    font-size: 15px;
-    color: #6b7280;
-    min-width: 120px;
-    text-align: right;
+  width: 130px; /* fixed width for all dates */
+  text-align: right;
+  white-space: nowrap;
+  font-size: 15px;
+  color: #6b7280;
   }
 
   .cv-skills {
