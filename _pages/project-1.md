@@ -30,7 +30,7 @@ This project explores whether social media sentiment—specifically Twitter/X me
 The chart below shows the distribution of sentiment extracted from tweets mentioning Amazon and Netflix.
 </p>
 
-<img src="/assets/images/twitter_sentiment_distribution.png" alt="Sentiment Distribution" style="width: 100%; border-radius: 8px; margin: 20px 0;"/>
+<img src="https://Ilse-hutten.github.io/my-portfolio/assets/images/twitter_sentiment_distribution.png" alt="Sentiment Distribution" style="width: 100%; border-radius: 8px; margin: 20px 0;"/>
 
 <h3 style="font-size: 18px; color: #333;"> Model Performance</h3>
 
@@ -38,7 +38,7 @@ The chart below shows the distribution of sentiment extracted from tweets mentio
 The models achieved high recall, meaning they successfully captured most of the positive stock movement signals. However, precision remained relatively low, indicating many false positives. This imbalance is partly due to the skewed nature of the dataset — with a higher proportion of positive sentiment labels, the models tend to overpredict positive outcomes. Addressing this through class balancing techniques (such as resampling or adjusting class weights) could improve precision and overall model robustness. These findings also align with academic research, which shows that sentiment alone offers limited predictive power unless combined with other indicators.
 </p>
 
-<img src="/assets/images/twitter_model_performance.png" alt="Model Performance" style="width: 100%; border-radius: 8px; margin: 20px 0;"/>
+<img src="https://Ilse-hutten.github.io/my-portfolio/assets/images/twitter_model_performance.png" alt="Model Performance" style="width: 100%; border-radius: 8px; margin: 20px 0;"/>
 
 <h3 style="font-size: 18px; color: #333;"> Strategy vs. Buy & Hold</h3>
 
@@ -46,9 +46,9 @@ The models achieved high recall, meaning they successfully captured most of the 
 The backtested trading strategy outperformed a buy-and-hold approach on both Amazon and Netflix. Below are performance comparison charts and a metrics summary.
 </p>
 
-<img src="/assets/images/twitter_strategy_vs_buyhold.png" alt="Trading Strategy vs Buy and Hold" style="width: 100%; border-radius: 8px; margin: 20px 0;"/>
+<img src="https://Ilse-hutten.github.io/my-portfolio/assets/images/twitter_strategy_vs_buyhold.png" alt="Trading Strategy vs Buy and Hold" style="width: 100%; border-radius: 8px; margin: 20px 0;"/>
 
-<img src="/assets/images/twitter_strategy_vs_buyhold_table.png" alt="Strategy Performance Table" style="width: 100%; border-radius: 8px; margin: 20px 0;"/>
+<img src="https://Ilse-hutten.github.io/my-portfolio/assets/images/twitter_strategy_vs_buyhold_table.png" alt="Strategy Performance Table" style="width: 100%; border-radius: 8px; margin: 20px 0;"/>
 
 <h3 style="font-size: 18px; color: #333;"> Technologies Used</h3>
 
