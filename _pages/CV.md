@@ -3,6 +3,7 @@ layout: single
 title: ""
 permalink: /cv/
 classes: wide
+author_profile: true
 ---
 
 <style>
