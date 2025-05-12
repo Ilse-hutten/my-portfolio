@@ -2,7 +2,7 @@
 permalink: projects/project-twitter-sentiment/
 title: "Stock Prediction with Twitter Sentiment"
 layout: single
-classes: wide
+classes: container
 
 header:
   overlay_image: /assets/images/nlp.jpg
