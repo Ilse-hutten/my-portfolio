@@ -14,39 +14,45 @@ classes: wide
     background: #f7f9fa;
   }
   .cv-wrapper {
-    max-width: 780px;
+    max-width: 1100px; /* Wider for less side whitespace */
     margin: 40px auto;
-    padding: 2.5rem 2rem;
+    padding: 2rem 2rem;
     background: #fff;
     border-radius: 10px;
     box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    font-size: 1rem; /* Base font size */
   }
   .cv-header {
     text-align: center;
-    margin-bottom: 2.2rem;
+    margin-bottom: 2rem;
   }
   .cv-header h1 {
-    font-size: 2.2rem;
+    font-size: 1.3rem; /* Smaller, more professional */
     font-weight: 700;
     letter-spacing: 1px;
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.2rem;
     color: #1e293b;
   }
   .cv-contact {
-    font-size: 1rem;
+    font-size: 0.95rem;
     color: #52525b;
     margin-bottom: 0.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.2rem;
   }
+  .cv-contact a { white-space: nowrap; }
   .cv-section {
-    margin-bottom: 1.8rem;
+    margin-bottom: 1.5rem;
   }
   .cv-section h2 {
-    font-size: 1.15rem;
+    font-size: 1rem;
     font-weight: 700;
     color: #2563eb;
     border-bottom: 1.5px solid #e5e7eb;
-    padding-bottom: 0.3rem;
-    margin-bottom: 1.1rem;
+    padding-bottom: 0.25rem;
+    margin-bottom: 1rem;
     letter-spacing: 0.5px;
     text-transform: uppercase;
   }
@@ -54,36 +60,53 @@ classes: wide
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 0.7rem;
+    margin-bottom: 0.5rem;
   }
   .cv-role-title {
     font-weight: 600;
     color: #1e293b;
+    font-size: 1rem;
   }
   .cv-organization {
     font-style: italic;
     color: #64748b;
-    font-size: 0.97rem;
+    font-size: 0.95rem;
   }
   .cv-description {
     margin-left: 1rem;
-    font-size: 0.98rem;
+    font-size: 0.95rem;
   }
   ul.cv-bullets {
-    margin: 0.4rem 0 0.6rem 1.3rem;
-    font-size: 0.97rem;
+    margin: 0.3rem 0 0.5rem 1.2rem;
+    font-size: 0.95rem;
     color: #374151;
   }
   .cv-footer {
     text-align: center;
     font-size: 0.9rem;
     color: #9ca3af;
-    margin-top: 2.5rem;
+    margin-top: 2rem;
   }
+  /* Cap font sizes on very large screens */
+  @media (min-width: 1200px) {
+    .cv-wrapper {
+      font-size: 1rem;
+    }
+    .cv-header h1 {
+      font-size: 1.3rem;
+    }
+    .cv-section h2 {
+      font-size: 1rem;
+    }
+    .cv-role-title {
+      font-size: 1rem;
+    }
+  }
+  /* Responsive for mobile */
   @media (max-width: 600px) {
     .cv-wrapper { padding: 1.1rem 0.5rem; }
-    .cv-header h1 { font-size: 1.4rem; }
-    .cv-section h2 { font-size: 1rem; }
+    .cv-header h1 { font-size: 1.1rem; }
+    .cv-section h2 { font-size: 0.95rem; }
     .cv-role { flex-direction: column; gap: 0.1rem; }
   }
 </style>

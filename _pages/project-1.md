@@ -2,12 +2,14 @@
 permalink: projects/project-twitter-sentiment/
 #title: "Stock Prediction with Twitter Sentiment"
 layout: single
+classes: wide
 #author_profile: true
 
+title: "Stock Prediction with Twitter Sentiment"
 header:
   overlay_image: /assets/images/nlp.jpg
   overlay_filter: 0.3
-  overlay_title: "Stock Prediction with Twitter Sentiment"
+
 ---
 
 <h2 style="font-size: 22px; margin-top: 0; color: #333;">Stock Prediction with Twitter Sentiment</h2>
