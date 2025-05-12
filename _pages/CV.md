@@ -12,7 +12,6 @@ classes: wide
 
   body {
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 15px;
     color: #232323;
     line-height: 1.5;
     background-color: #ffffff !important;
@@ -183,7 +182,7 @@ classes: wide
     <div class="cv-role">
       <div>
         <div class="cv-role-title">Investment Banking Associate – Equity Advisory</div>
-        <div class="cv-organization">Nomura, London, United Kingdom</div>
+        <div class="cv-organization">Nomura, London, UK</div>
       </div>
       <div>Apr 2022 – Jan 2025</div>
     </div>
@@ -199,7 +198,7 @@ classes: wide
     <div class="cv-role">
       <div>
         <div class="cv-role-title">Investment Banking Summer Analyst – Energy, Infrastructure & Industrials</div>
-        <div class="cv-organization">Nomura, London, United Kingdom</div>
+        <div class="cv-organization">Nomura, London, UK</div>
       </div>
       <div>Jun 2021 – Aug 2021</div>
     </div>
@@ -213,9 +212,9 @@ classes: wide
         <div class="cv-role-title">Le Wagon</div>
         <div class="cv-organization">Data Science & Machine Learning Bootcamp – London, UK</div>
         <ul class="cv-bullets">
-          <li>Intensive 9-week, full-time program covering Python for Data Science, SQL, Pandas, NumPy, Matplotlib, Scipy, Seaborn, Statsmodels, Scikit-learn, and TensorFlow Keras.</li>
-          <li>Developed expertise in statistical analysis, data visualization, machine learning, and deep learning.</li>
-          <li>Designed and implemented a statistical arbitrage trading strategy leveraging machine learning techniques to optimize portfolio performance.</li>
+          <li>Intensive 9-week, full-time program covering Python for Data Science, SQL, Pandas, NumPy, Matplotlib, Scipy, Seaborn, Statsmodels, Scikit-learn, and TensorFlow Keras</li>
+          <li>Developed expertise in statistical analysis, data visualization, machine learning, and deep learning</li>
+          <li>Designed and implemented a statistical arbitrage trading strategy leveraging machine learning techniques to optimize portfolio performance</li>
         </ul>
       </div>
       <div>Jan 2025 – Mar 2025</div>
@@ -227,7 +226,7 @@ classes: wide
         <div class="cv-organization">MSc in Finance & Investments – Copenhagen, Denmark</div>
         <ul class="cv-bullets">
           <li>Relevant subjects: Quantitative Methods, Investments, Hedge Fund Strategies, Data Science, Algorithmic Trading, Derivatives</li>
-          <li>Member of the CBS Sustainable Investments Club: Developed and analyzed ESG-compliant portfolios using Python applying quantitative methods for portfolio construction and performance monitoring.</li>
+          <li>Member of the CBS Sustainable Investments Club: Developed and analyzed ESG-compliant portfolios using Python applying quantitative methods for portfolio construction and performance monitoring</li>
         </ul>
       </div>
       <div>Sep 2019 – Jul 2021</div>
