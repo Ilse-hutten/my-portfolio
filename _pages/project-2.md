@@ -56,4 +56,6 @@ You can interact with the trading strategy live by visiting the **Streamlit app*
 
 ---
 
-[🔙 Back to Projects](/projects/)
+<p style="font-size: 16px; line-height: 1.7; margin-top: 30px;">
+  <a href="https://ilse-hutten.github.io/my-portfolio/projects/" style="text-decoration: none; color: #007acc;">🔙 Back to Projects</a>
+</p>

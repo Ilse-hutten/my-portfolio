@@ -59,7 +59,7 @@ Here are some of my recent data science and machine learning projects:
 
 <div class="project-grid">
   <div class="project-card">
-    <img src="/assets/images/nlp.jpg" alt="Twitter Sentiment Project">
+    <img src="{{ '/assets/images/nlp.jpg' | relative_url }}" alt="Twitter Sentiment Project">
     <div class="project-card-content">
       <h3>Stock Prediction with Twitter Sentiment</h3>
       <p>Built an ML pipeline to predict stock movements based on tweet sentiment. Strategy outperformed a benchmark in backtests.</p>
@@ -68,7 +68,7 @@ Here are some of my recent data science and machine learning projects:
   </div>
 
   <div class="project-card">
-    <img src="/assets/images/nlp.jpg" alt="PCA Index Arbitrage">
+    <<img src="{{ '/assets/images/nlp.jpg' | relative_url }}" alt="PCA Index Arbitrage">
     <div class="project-card-content">
       <h3>Index Arbitrage using PCA</h3>
       <p>Used Principal Component Analysis to detect index mispricings and design a z-score based mean reversion strategy.</p>

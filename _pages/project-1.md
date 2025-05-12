@@ -7,7 +7,7 @@ layout: single
 header:
   overlay_image: /assets/images/nlp.jpg
   overlay_filter: 0.3
-  caption: "Stock Prediction with Twitter Sentiment"
+  overlay_title: "Stock Prediction with Twitter Sentiment"
 ---
 
 <h2 style="font-size: 22px; margin-top: 0; color: #333;">Stock Prediction with Twitter Sentiment</h2>
@@ -42,5 +42,5 @@ This project uses Natural Language Processing (NLP) to analyze Twitter sentiment
 
 
 <p style="font-size: 16px; line-height: 1.7; margin-top: 30px;">
-  <a href="/projects/" style="text-decoration: none; color: #007acc;">🔙 Back to Projects</a>
+  <a href="https://ilse-hutten.github.io/my-portfolio/projects/" style="text-decoration: none; color: #007acc;">🔙 Back to Projects</a>
 </p>
