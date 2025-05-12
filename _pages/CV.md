@@ -31,11 +31,11 @@ classes: wide
 
   .cv-header {
     text-align: center;
-    margin-bottom: 1.2rem;
+    margin-bottom: 1.1rem;
   }
 
   .cv-header h1 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 700;
     letter-spacing: 1px;
     margin-bottom: 0.1rem;
@@ -59,7 +59,7 @@ classes: wide
   }
 
   .cv-section h2 {
-    font-size: 0.98rem;
+    font-size: 15px;
     font-weight: 700;
     color: #2563eb;
     border-bottom: 1px solid #e5e7eb;
@@ -81,18 +81,18 @@ classes: wide
   .cv-role-title {
     font-weight: 600;
     color: #1e293b;
-    font-size: 0.97rem;
+    font-size: 15px;
   }
 
   .cv-organization {
     font-style: italic;
     color: #64748b;
-    font-size: 0.92rem;
+    font-size: 15px;
   }
 
   .cv-description {
     margin-left: 0.7rem;
-    font-size: 0.93rem;
+    font-size: 15px;
   }
 
   ul.cv-bullets {
@@ -103,7 +103,7 @@ classes: wide
 
   .cv-footer {
     text-align: center;
-    font-size: 0.88rem;
+    font-size: 15px;
     color: #9ca3af;
     margin-top: 1.2rem;
   }
@@ -143,7 +143,7 @@ classes: wide
 
     .cv-role > div:last-child {
       white-space: nowrap;
-      font-size: 14px;
+      font-size: 15px;
       min-width: 80px;
       text-align: right;
     }
