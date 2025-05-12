@@ -213,7 +213,9 @@ classes: wide
         <div class="cv-role-title">Le Wagon</div>
         <div class="cv-organization">Data Science & Machine Learning Bootcamp – London, UK</div>
         <ul class="cv-bullets">
-          <li>Completed intensive 9-week bootcamp covering supervised learning, NLP, and deployment.</li>
+          <li>Intensive 9-week, full-time program covering Python for Data Science, SQL, Pandas, NumPy, Matplotlib, Scipy, Seaborn, Statsmodels, Scikit-learn, and TensorFlow Keras.</li>
+          <li>Developed expertise in statistical analysis, data visualization, machine learning, and deep learning.</li>
+          <li>Designed and implemented a statistical arbitrage trading strategy leveraging machine learning techniques to optimize portfolio performance.</li>
         </ul>
       </div>
       <div>Jan 2025 – Mar 2025</div>
@@ -224,9 +226,8 @@ classes: wide
         <div class="cv-role-title">Copenhagen Business School</div>
         <div class="cv-organization">MSc in Finance & Investments – Copenhagen, Denmark</div>
         <ul class="cv-bullets">
-          <li>Relevant subjects: Quantitative Methods, Investments, Hedge Fund Strategies, Data Science, Algorithmic Trading</li>
-          <li>First Class. Member of CBS Sustainable Investments Club: Built ESG-compliant portfolios using Python.</li>
-          <li>Thesis: Examined link between oil futures and stock prices using time-series analysis.</li>
+          <li>Relevant subjects: Quantitative Methods, Investments, Hedge Fund Strategies, Data Science, Algorithmic Trading, Derivatives</li>
+          <li>Member of the CBS Sustainable Investments Club: Developed and analyzed ESG-compliant portfolios using Python applying quantitative methods for portfolio construction and performance monitoring.</li>
         </ul>
       </div>
       <div>Sep 2019 – Jul 2021</div>
@@ -237,7 +238,7 @@ classes: wide
         <div class="cv-role-title">Tilburg School of Economics and Management</div>
         <div class="cv-organization">BSc in International Business Administration – Tilburg, Netherlands</div>
         <ul class="cv-bullets">
-          <li>Relevant subjects: Mathematics, Finance, Statistics, Economics, Accounting, Derivatives</li>
+          <li>Relevant subjects: Mathematics, Finance, Statistics, Economics, Accounting, Option Pricing</li>
           <li>Exchange: City University of Hong Kong (Sep 2017 – Jan 2018)</li>
           <li>Thesis: Relationship between Cryptocurrency and Monetary Policy</li>
         </ul>
