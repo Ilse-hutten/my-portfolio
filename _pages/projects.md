@@ -92,8 +92,16 @@ Here are some of my recent data science and machine learning projects:
 
 ---
 
-### Additional Projects
+<div style="font-size: 15px; line-height: 1.6;">
 
+### 🔗 Additional GitHub Projects
 
-- **[Movie Review Sentiment Classifier](https://github.com/Ilse-hutten/movie-reviews-classifier)**
-  *Classifies movie reviews as positive or negative using Natural Language Processing (NLP) and a Naive Bayes model.*
+Below are some smaller or utility-focused projects, linked directly to their GitHub repositories:
+
+- **<a href="https://github.com/Ilse-hutten/movie-reviews-classifier" target="_blank">Movie Review Sentiment Classifier</a>**
+  <em>Classifies movie reviews as positive or negative using Natural Language Processing (NLP) and a Naive Bayes model.</em>
+
+- **<a href="https://github.com/Ilse-hutten/gradient-descent-manual" target="_blank">Gradient Descent Manual</a>**
+  <em>Implementation of the Gradient Descent algorithm from scratch to understand how optimization works at a mathematical level.</em>
+
+</div>
