@@ -70,11 +70,12 @@ This project applies supervised machine learning to predict customer churn for a
 </thead>
 <tbody>
 <tr><td>Random Forest</td><td>0.8263</td><td>0.7640</td><td>0.5438</td><td>0.6979</td><td>0.6112</td></tr>
-<tr><td>Logistic Regression</td><td>0.8316</td><td>0.7356</td><td>0.5017</td><td><b>0.7914</b></td><td>0.6141</td></tr>
-<tr><td>Gradient Boosting</td><td>0.8316</td><td><b>0.7719</b></td><td><b>0.5604</b></td><td>0.6578</td><td>0.6052</td></tr>
-<tr><td>XGBoost</td><td><b>0.8318</b></td><td>0.7676</td><td>0.5512</td><td>0.6765</td><td><b>0.6074</b></td></tr>
+<tr><td>Logistic Regression</td><td>0.8316</td><td>0.7356</td><td>0.5017</td><td>0.7914</td><td>0.6141</td></tr>
+<tr><td>Gradient Boosting</td><td>0.8316</td><td>0.7719</td><td>0.5604</td><td>0.6578</td><td>0.6052</td></tr>
+<tr><td>XGBoost</td><td>0.8318</td><td>0.7676</td><td>0.5512</td><td>0.6765</td><td>0.6074</td></tr>
 </tbody>
 </table>
+
 
 <img src="https://Ilse-hutten.github.io/my-portfolio/assets/images/roc_auc_across_models.png" alt="ROC AUC Comparison" style="width: 70%; border-radius: 8px; margin: 20px 0;"/>
 
