@@ -68,7 +68,7 @@ Here are some of my recent data science and machine learning projects:
   </div>
 
   <div class="project-card">
-    <<img src="{{ '/assets/images/nlp.jpg' | relative_url }}" alt="PCA Index Arbitrage">
+    <<img src="{{ '/assets/images/pca_header.jpeg' | relative_url }}" alt="PCA Index Arbitrage">
     <div class="project-card-content">
       <h3>Index Arbitrage using PCA</h3>
       <p>Used Principal Component Analysis to detect index mispricings and design a z-score based mean reversion strategy.</p>
@@ -77,7 +77,7 @@ Here are some of my recent data science and machine learning projects:
   </div>
 
   <div class="project-card">
-  <img src="{{ '/assets/images/telco_header.jpg' | relative_url }}" alt="Telco Churn Project">
+  <img src="{{ '/assets/images/telco_header.png' | relative_url }}" alt="Telco Churn Project">
   <div class="project-card-content">
     <h3>Customer Churn Prediction for Telco</h3>
     <p>Used machine learning to predict telecom churn, with insights on contract types, services, and support features.</p>

@@ -27,7 +27,7 @@ This project applies supervised machine learning to predict customer churn for a
 
 <p style="font-size: 15px;">The dataset is imbalanced: ~73% of customers do not churn.</p>
 
-<img src="/assets/images/churn_distribution.png" alt="Churn Distribution" style="width: 50%; border-radius: 8px; margin: 20px 0;"/>
+<img src="https://Ilse-hutten.github.io/my-portfolio/assets/images/churn_distribution.png" alt="Churn Distribution" style="width: 50%; border-radius: 8px; margin: 20px 0;"/>
 
 <p style="font-size: 15px; margin-top: 20px;">Key patterns observed across customer segments:</p>
 
@@ -37,8 +37,8 @@ This project applies supervised machine learning to predict customer churn for a
   <li>Gender is not a significant churn factor.</li>
 </ul>
 
-<img src="/assets/images/churn_rate_demographics.png" style="width: 100%; border-radius: 8px;"/>
-<img src="/assets/images/customer_count_demographics.png" style="width: 100%; border-radius: 8px;"/>
+<img src="https://Ilse-hutten.github.io/my-portfolio/assets/images/churn_rate_demographics.png" style="width: 100%; border-radius: 8px;"/>
+<img src="https://Ilse-hutten.github.io/my-portfolio/assets/images/customer_count_demographics.png" style="width: 100%; border-radius: 8px;"/>
 
 <p style="margin-top: 20px;">Service and contract features also show strong signals:</p>
 
@@ -48,7 +48,7 @@ This project applies supervised machine learning to predict customer churn for a
   <li>Month-to-month contracts have the highest churn (~40%).</li>
 </ul>
 
-<img src="/assets/images/churn_rate_service_contract.png" style="width: 100%; border-radius: 8px;"/>
+<img src="https://Ilse-hutten.github.io/my-portfolio/assets/images/churn_rate_service_contract.png" style="width: 100%; border-radius: 8px;"/>
 
 <h3 style="font-size: 18px; color: #333;"> Preprocessing</h3>
 
@@ -76,7 +76,7 @@ This project applies supervised machine learning to predict customer churn for a
 </tbody>
 </table>
 
-<img src="/assets/images/roc_auc_across_models.png" alt="ROC AUC Comparison" style="width: 70%; border-radius: 8px; margin: 20px 0;"/>
+<img src="https://Ilse-hutten.github.io/my-portfolio/assets/images/roc_auc_across_models.png" alt="ROC AUC Comparison" style="width: 70%; border-radius: 8px; margin: 20px 0;"/>
 
 <h3 style="font-size: 18px; color: #333;"> Feature Importance</h3>
 
@@ -86,7 +86,8 @@ This project applies supervised machine learning to predict customer churn for a
   <li>Gradient Boosting emphasizes a few key features, while XGBoost distributes importance more evenly.</li>
 </ul>
 
-<img src="/assets/images/feature_importance.png" alt="Feature Importance" style="width: 100%; border-radius: 8px;"/>
+<img src="https://Ilse-hutten.github.io/my-portfolio/assets/images/feature_importance.png" alt="Feature Importance" style="width: 100%; border-radius: 8px;"/>
+
 
 <h3 style="font-size: 18px; color: #333;"> Strategic Takeaways</h3>
 
