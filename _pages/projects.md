@@ -68,7 +68,7 @@ Here are some of my recent data science and machine learning projects:
   </div>
 
   <div class="project-card">
-    <<img src="{{ '/assets/images/pca_header.jpeg' | relative_url }}" alt="PCA Index Arbitrage">
+    <<img src="{{ '/assets/images/pca_header.webp' | relative_url }}" alt="PCA Index Arbitrage">
     <div class="project-card-content">
       <h3>Index Arbitrage using PCA</h3>
       <p>Used Principal Component Analysis to detect index mispricings and design a z-score based mean reversion strategy.</p>

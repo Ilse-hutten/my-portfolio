@@ -27,7 +27,7 @@ This project applies supervised machine learning to predict customer churn for a
 
 <p style="font-size: 15px;">The dataset is imbalanced: ~73% of customers do not churn.</p>
 
-<img src="https://Ilse-hutten.github.io/my-portfolio/assets/images/churn_distribution.png" alt="Churn Distribution" style="width: 50%; border-radius: 8px; margin: 20px 0;"/>
+<img src="https://Ilse-hutten.github.io/my-portfolio/assets/images/churn_distribution.png" alt="Churn Distribution" style="width: 40%; border-radius: 8px; margin: 20px 0;"/>
 
 <p style="font-size: 15px; margin-top: 20px;">Key patterns observed across customer segments:</p>
 
@@ -48,7 +48,7 @@ This project applies supervised machine learning to predict customer churn for a
   <li>Month-to-month contracts have the highest churn (~40%).</li>
 </ul>
 
-<img src="https://Ilse-hutten.github.io/my-portfolio/assets/images/churn_rate_service_contract.png" style="width: 100%; border-radius: 8px;"/>
+<img src="https://Ilse-hutten.github.io/my-portfolio/assets/images/churn_rate_service_contract.png" style="width: 120%; border-radius: 8px;"/>
 
 <h3 style="font-size: 18px; color: #333;"> Preprocessing</h3>
 
@@ -77,6 +77,8 @@ This project applies supervised machine learning to predict customer churn for a
 </table>
 
 <img src="https://Ilse-hutten.github.io/my-portfolio/assets/images/roc_auc_across_models.png" alt="ROC AUC Comparison" style="width: 70%; border-radius: 8px; margin: 20px 0;"/>
+
+<img src="https://Ilse-hutten.github.io/my-portfolio/assets/images/precision_recall_curves.png" alt="ROC AUC Comparison" style="width: 70%; border-radius: 8px; margin: 20px 0;"/>
 
 <h3 style="font-size: 18px; color: #333;"> Feature Importance</h3>
 
