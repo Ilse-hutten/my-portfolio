@@ -117,7 +117,7 @@ This project applies supervised machine learning to predict customer churn for a
 </ul>
 
 <p style="margin-top: 20px;">
-  <a href="https://github.com/Ilse-hutten/telco-customer-churn" style="font-size: 16px; color: white; background-color: #007acc; padding: 8px 14px; border-radius: 5px; text-decoration: none;">
+  <a href="https://github.com/Ilse-hutten/customer-churn-prediction" style="font-size: 16px; color: white; background-color: #007acc; padding: 8px 14px; border-radius: 5px; text-decoration: none;">
     🔗 View on GitHub
   </a>
 </p>
