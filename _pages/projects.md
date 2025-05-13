@@ -12,7 +12,7 @@ Here are some of my recent data science and machine learning projects:
 <style>
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1.5rem;
   margin-top: 2rem;
 }
@@ -31,7 +31,7 @@ Here are some of my recent data science and machine learning projects:
 
 .project-card img {
   width: 100%;
-  height: 180px;
+  height: 170px;
   object-fit: cover;
 }
 
@@ -41,11 +41,11 @@ Here are some of my recent data science and machine learning projects:
 
 .project-card h3 {
   margin-top: 0;
-  font-size: 1.2rem;
+  font-size: 18px;
 }
 
 .project-card p {
-  font-size: 0.95rem;
+  font-size: 15px;
   color: #444;
 }
 
