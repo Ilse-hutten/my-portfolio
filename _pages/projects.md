@@ -57,31 +57,33 @@ Here are some of my recent data science and machine learning projects:
 }
 </style>
 
-<div class="project-grid">
-  <div class="project-card">
-    <img src="{{ '/assets/images/nlp.jpg' | relative_url }}" alt="Twitter Sentiment Project">
-    <div class="project-card-content">
-      <h3>Stock Prediction with Twitter Sentiment</h3>
-      <p>Built an ML pipeline to predict stock movements based on tweet sentiment. Strategy outperformed a benchmark in backtests.</p>
-      <a href="./project-twitter-sentiment">Read more →</a>
+<div style="max-width: 1200px; margin: 0 auto;">
+  <div class="project-grid">
+    <div class="project-card">
+      <img src="{{ '/assets/images/nlp.jpg' | relative_url }}" alt="Twitter Sentiment Project">
+      <div class="project-card-content">
+        <h3>Stock Prediction with Twitter Sentiment</h3>
+        <p>Built an ML pipeline to predict stock movements based on tweet sentiment. Strategy outperformed a benchmark in backtests.</p>
+        <a href="./project-twitter-sentiment">Read more →</a>
+      </div>
     </div>
-  </div>
 
   <div class="project-card">
-    <<img src="{{ '/assets/images/pca_header.webp' | relative_url }}" alt="PCA Index Arbitrage">
-    <div class="project-card-content">
-      <h3>Index Arbitrage using PCA</h3>
-      <p>Used Principal Component Analysis to detect index mispricings and design a z-score based mean reversion strategy.</p>
-      <a href="./project-pca-strategy">Read more →</a>
+      <img src="{{ '/assets/images/pca_header.webp' | relative_url }}" alt="PCA Index Arbitrage">
+      <div class="project-card-content">
+        <h3>Index Arbitrage using PCA</h3>
+        <p>Used Principal Component Analysis to detect index mispricings and design a z-score based mean reversion strategy.</p>
+        <a href="./project-pca-strategy">Read more →</a>
+      </div>
     </div>
-  </div>
 
   <div class="project-card">
-  <img src="{{ '/assets/images/telco_header.png' | relative_url }}" alt="Telco Churn Project">
-  <div class="project-card-content">
-    <h3>Customer Churn Prediction for Telco</h3>
-    <p>Used machine learning to predict telecom churn, with insights on contract types, services, and support features.</p>
-    <a href="./project-telco-churn">Read more →</a>
+    <img src="{{ '/assets/images/telco_header.png' | relative_url }}" alt="Telco Churn Project">
+    <div class="project-card-content">
+      <h3>Customer Churn Prediction for Telco</h3>
+      <p>Used machine learning to predict telecom churn, with insights on contract types, services, and support features.</p>
+      <a href="./project-telco-churn">Read more →</a>
+    </div>
   </div>
 </div>
 
