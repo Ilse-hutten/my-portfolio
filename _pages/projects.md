@@ -57,7 +57,7 @@ Here are some of my recent data science and machine learning projects:
 }
 </style>
 
-<div style="max-width: 1200px; margin: 0 auto;">
+<div style="max-width: 1500px; margin: 0 auto;">
   <div class="project-grid">
     <div class="project-card">
       <img src="{{ '/assets/images/nlp.jpg' | relative_url }}" alt="Twitter Sentiment Project">
