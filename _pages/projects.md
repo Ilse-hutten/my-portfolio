@@ -89,3 +89,11 @@ Here are some of my recent data science and machine learning projects:
 
   <!-- Add more cards here -->
 </div>
+
+---
+
+### Additional Projects
+
+
+- **[Movie Review Sentiment Classifier](https://github.com/Ilse-hutten/movie-reviews-classifier)**
+  *Classifies movie reviews as positive or negative using Natural Language Processing (NLP) and a Naive Bayes model.*
