@@ -5,7 +5,7 @@ layout: single
 classes: "container medium"
 
 header:
-  overlay_image: /assets/images/pca_header.jpeg
+  overlay_image: /assets/images/pca_header.webp
   overlay_filter: 0.3
 ---
 
@@ -55,7 +55,7 @@ The app allows you to:
 </ul>
 
 <video autoplay loop muted playsinline style="width: 80%; border-radius: 8px; margin: 20px 0;">
-  <source src="/assets/images/pca_streamlit_demo.mp4" type="video/mp4">
+  <source src="/assets/videos/pca_streamlit_demo.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
