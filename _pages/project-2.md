@@ -33,6 +33,24 @@ This project implements a <strong>PCA-based index arbitrage trading strategy</st
   <li><strong>Spread:</strong> The difference between the log returns of the replication portfolio and the actual index.</li>
 </ul>
 
+<h3 style="font-size: 18px; color: #333;"> Example: PCA-Based Replication of FTSE Index </h3>
+
+<p style="font-size: 15px; line-height: 1.7; color: #444;">
+Below is a visualization of the <strong>FTSE100 index</strong> versus a <strong>replication portfolio</strong> constructed using the top 5 stocks identified by PCA at a selected point in time.
+</p>
+
+<img src="/assets/images/replication_ftse.jpg" alt="FTSE Replication" style="width: 100%; border-radius: 8px; margin: 20px 0;" />
+
+<p style="font-size: 15px; line-height: 1.7; color: #444;">
+While the replicated portfolio broadly follows the index, some deviations are visible — primarily due to:
+</p>
+
+<ul style="font-size: 15px; line-height: 1.7; color: #444;">
+  <li><strong>Static PCA Weights:</strong> The replication is based on PCA applied across the entire date range shown in the plot. While valid for visualization, using this in a trading context would lead to <em>data leakage</em>, since it includes future information not available at decision time.</li>
+  <li><strong>Limited Stock Subset:</strong> Only the 5 most representative stocks were used, which naturally introduces tracking error compared to the full FTSE100.</li>
+</ul>
+
+
 <h3 style="font-size: 18px; color: #333;"> Mean Reversion Trading Logic</h3>
 
 <ul style="font-size: 15px; line-height: 1.7; color: #444;">
