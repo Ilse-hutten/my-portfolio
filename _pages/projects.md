@@ -92,15 +92,21 @@ Here are some of my recent data science and machine learning projects:
 
 ---
 
+
+
 <div style="font-size: 15px; line-height: 1.6;">
 
 ### 🔗 Additional GitHub Projects
 
+- <strong><a href="https://github.com/Ilse-hutten/arima-times-series" target="_blank">ARIMA Time Series Forecasting</a></strong><br>
+  <em>Project demonstrates the use of the ARIMA (AutoRegressive Integrated Moving Average) model for time series forecasting.</em>
+  <br><br>
 
--**<a href="https://github.com/Ilse-hutten/movie-reviews-classifier" target="_blank">Movie Review Sentiment Classifier</a>**
+- <strong><a href="https://github.com/Ilse-hutten/movie-reviews-classifier" target="_blank">Movie Review Sentiment Classifier</a></strong><br>
   <em>Classifies movie reviews as positive or negative using Natural Language Processing (NLP) and a Naive Bayes model.</em>
+  <br><br>
 
--**<a href="https://github.com/Ilse-hutten/gradient-descent-manual" target="_blank">Gradient Descent Manual</a>**
+- <strong><a href="https://github.com/Ilse-hutten/gradient-descent-manual" target="_blank">Gradient Descent Manual</a></strong><br>
   <em>Implementation of the Gradient Descent algorithm from scratch to understand how optimization works at a mathematical level.</em>
 
 </div>
