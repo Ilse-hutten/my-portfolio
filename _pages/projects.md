@@ -93,10 +93,8 @@ Here are some of my recent data science and machine learning projects:
 ---
 
 
-
-<div style="font-size: 15px; line-height: 1.6;">
-
 ### 🔗 Additional GitHub Projects
+<div style="font-size: 15px; line-height: 1.6;">
 
 - <strong><a href="https://github.com/Ilse-hutten/arima-times-series" target="_blank">ARIMA Time Series Forecasting</a></strong><br>
   <em>Project demonstrates the use of the ARIMA (AutoRegressive Integrated Moving Average) model for time series forecasting.</em>
