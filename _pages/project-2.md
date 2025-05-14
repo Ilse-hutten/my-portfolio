@@ -2,60 +2,85 @@
 permalink: projects/project-pca-strategy/
 title: "Index Arbitrage Trading Strategy Using PCA"
 layout: single
-author_profile: true
+classes: "container medium"
+
+header:
+  overlay_image: /assets/images/pca_header.jpg
+  overlay_filter: 0.3
 ---
 
-# Index Arbitrage Trading Strategy Using PCA
+<h2 style="font-size: 22px; margin-top: 0; color: #333;">Index Arbitrage Trading Strategy Using PCA</h2>
 
-This project implements a **PCA-based index arbitrage trading strategy** designed to replicate major stock indexes like the FTSE100 using Principal Component Analysis (PCA) and statistical mean reversion principles.
+<p style="font-size: 15px; line-height: 1.7; color: #444;">
+This project implements a <strong>PCA-based index arbitrage trading strategy</strong> that builds a replication portfolio for major indices (like the FTSE100) and executes mean-reversion trades based on z-score thresholds. Built with Streamlit, the app lets users interactively explore portfolio construction and backtest performance under varying conditions.
+</p>
 
-Developed during the **Le Wagon Data Science and AI Bootcamp**, I implemented the PCA method to identify stocks that closely mirror the behavior of a target index. The strategy assumes that the spread between the replicated portfolio and the index will revert to the mean, providing trading signals.
+<h3 style="font-size: 18px; color: #333;"> Project Workflow</h3>
 
----
+<ol style="font-size: 15px; line-height: 1.7; color: #444; padding-left: 20px;">
+  <li><strong>Data Collection:</strong> Pulled daily stock prices from BigQuery for index components (e.g., FTSE100, SP500).</li>
+  <li><strong>PCA Replication:</strong> Applied Principal Component Analysis to identify stocks most representative of the index.</li>
+  <li><strong>Spread Monitoring:</strong> Computed the spread between the index and the replication portfolio returns.</li>
+  <li><strong>Z-Score Signal Generation:</strong> Measured spread deviation from its mean to identify entry/exit signals.</li>
+  <li><strong>Backtesting:</strong> Simulated trading based on these signals over historical data.</li>
+</ol>
 
-### Objective
+<h3 style="font-size: 18px; color: #333;"> What is PCA and How It Helps</h3>
 
-The goal of this project was to explore an **index arbitrage strategy** using **PCA** to identify stocks whose returns closely mimic an index, enabling the construction of a **replicated portfolio**. The portfolio is then monitored for mean reversion signals to execute trades, assuming the spread between the portfolio and index would revert over time.
+<ul style="font-size: 15px; line-height: 1.7; color: #444;">
+  <li><strong>PCA (Principal Component Analysis):</strong> Reduces dimensionality by identifying dominant patterns in the data.</li>
+  <li><strong>Replication Logic:</strong> Selects a basket of stocks whose weighted returns approximate the index using top components.</li>
+  <li><strong>Spread:</strong> The difference between the log returns of the replication portfolio and the actual index.</li>
+</ul>
 
----
+<h3 style="font-size: 18px; color: #333;"> Mean Reversion Trading Logic</h3>
 
-### Approach
+<ul style="font-size: 15px; line-height: 1.7; color: #444;">
+  <li><strong>Buy:</strong> When z-score &lt; -2 (spread is below the mean by 2 std)</li>
+  <li><strong>Sell:</strong> When z-score &gt; 2</li>
+  <li><strong>Exit:</strong> When |z-score| &lt; 0.5 (reversion detected)</li>
+</ul>
 
-1. **Data Collection**: Stock price data was sourced from publicly available financial datasets (e.g., FTSE100).
-2. **PCA Implementation**: I applied **Principal Component Analysis (PCA)** to extract the principal components of the stock returns and used these components to identify a group of stocks that could replicate the index.
-3. **Mean Reversion Strategy**: Using the **z-score** of the spread between the replicated portfolio and the index, I created **buy** and **sell** signals based on mean reversion (e.g., buying when the spread is too negative and selling when it’s too positive).
-4. **Backtesting**: The strategy was backtested on historical data to simulate real-world trading and evaluate the effectiveness of the model.
+<h3 style="font-size: 18px; color: #333;"> Demo: Streamlit App</h3>
 
----
+<p style="font-size: 15px; line-height: 1.7; color: #444;">
+The app allows you to:
+</p>
 
-### Results
+<ul style="font-size: 15px; line-height: 1.7; color: #444;">
+  <li>Select an index and date</li>
+  <li>Specify number of stocks and PCA window</li>
+  <li>Visualize weights, spreads, and z-score signals</li>
+  <li>Backtest the strategy under varying assumptions</li>
+</ul>
 
-- **Performance**: The strategy successfully detected **mean reversion opportunities** with a high level of consistency, achieving a **positive return on trades**.
-- **Visualization**: Below is an example of the **z-score** analysis that drove the trading signals. The trading decisions are based on deviations greater than **±2 standard deviations**.
+<video autoplay loop muted playsinline style="width: 80%; border-radius: 8px; margin: 20px 0;">
+  <source src="/assets/videos/pca_streamlit_demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
-![Z-Score Chart](./assets/zscore_chart.png)
+<p style="margin-top: 10px;">
+  <a href="https://github.com/Ilse-hutten/index-arbitrage" style="font-size: 16px; color: white; background-color: #007acc; padding: 8px 14px; border-radius: 5px; text-decoration: none;">
+    🔗 View on GitHub
+  </a>
+</p>
 
-- **Interactive Web Interface**: The project includes a **Streamlit app** that allows users to explore and interact with the strategy’s performance, adjust parameters, and view results in real-time.
+<h3 style="font-size: 18px; color: #333;"> Results Snapshot</h3>
 
-**Click below to explore the Streamlit app live**:
-[Explore Interactive Demo](#)
+<ul style="font-size: 15px; line-height: 1.7; color: #444;">
+  <li>Generated consistent z-score signals with reasonable performance over backtest periods.</li>
+  <li>Replication portfolios track the index closely using only a subset of stocks.</li>
+  <li>Excess returns emerge from mean-reverting behavior in the spread.</li>
+</ul>
 
----
+<h3 style="font-size: 18px; color: #333;"> Technologies Used</h3>
 
-### Key Takeaways
+<ul style="font-size: 15px; line-height: 1.7; color: #444;">
+  <li>Python, Streamlit, BigQuery</li>
+  <li>scikit-learn (PCA), NumPy, pandas</li>
+  <li>Plotly for interactive visualization</li>
+</ul>
 
-- The project demonstrated how **PCA** can be effectively used to replicate an index and develop an arbitrage strategy.
-- **Mean reversion trading** strategies can be useful in capturing short-term inefficiencies in the market.
-- The project also emphasizes the importance of **visualizing model results**, which helps in **understanding model performance** and making data-driven decisions.
-
----
-
-### Demo (Optional)
-
-You can interact with the trading strategy live by visiting the **Streamlit app**. The app allows for experimenting with different market conditions, backtest performance, and visualize the data.
-
----
-
-<p style="font-size: 16px; line-height: 1.7; margin-top: 30px;">
+<p style="font-size: 15px; line-height: 1.7; margin-top: 30px;">
   <a href="https://ilse-hutten.github.io/my-portfolio/projects/" style="text-decoration: none; color: #007acc;">🔙 Back to Projects</a>
 </p>
