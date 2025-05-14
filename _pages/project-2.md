@@ -5,7 +5,7 @@ layout: single
 classes: "container medium"
 
 header:
-  overlay_image: /assets/images/pca_header.jpg
+  overlay_image: /assets/images/pca_header.jpeg
   overlay_filter: 0.3
 ---
 
@@ -19,7 +19,7 @@ This project implements a <strong>PCA-based index arbitrage trading strategy</st
 
 <ol style="font-size: 15px; line-height: 1.7; color: #444; padding-left: 20px;">
   <li><strong>Data Collection:</strong> Pulled daily stock prices from BigQuery for index components (e.g., FTSE100, SP500).</li>
-  <li><strong>PCA Replication:</strong> Applied Principal Component Analysis to identify stocks most representative of the index.</li>
+  <li><strong>PCA Replication:</strong> Applied Principal Component Analysis to identify stocks most representative of the index (on a rolling basis to adapt to changing index structures).</li>
   <li><strong>Spread Monitoring:</strong> Computed the spread between the index and the replication portfolio returns.</li>
   <li><strong>Z-Score Signal Generation:</strong> Measured spread deviation from its mean to identify entry/exit signals.</li>
   <li><strong>Backtesting:</strong> Simulated trading based on these signals over historical data.</li>
@@ -55,15 +55,10 @@ The app allows you to:
 </ul>
 
 <video autoplay loop muted playsinline style="width: 80%; border-radius: 8px; margin: 20px 0;">
-  <source src="/assets/videos/pca_streamlit_demo.mp4" type="video/mp4">
+  <source src="/assets/images/pca_streamlit_demo.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
-<p style="margin-top: 10px;">
-  <a href="https://github.com/Ilse-hutten/index-arbitrage" style="font-size: 16px; color: white; background-color: #007acc; padding: 8px 14px; border-radius: 5px; text-decoration: none;">
-    🔗 View on GitHub
-  </a>
-</p>
 
 <h3 style="font-size: 18px; color: #333;"> Results Snapshot</h3>
 
@@ -73,6 +68,22 @@ The app allows you to:
   <li>Excess returns emerge from mean-reverting behavior in the spread.</li>
 </ul>
 
+<h3 style="font-size: 18px; color: #333;"> Limitations</h3>
+
+<ul style="font-size: 15px; line-height: 1.7; color: #444;">
+  <li><strong>Linear Assumption:</strong> PCA captures linear correlations only and may ignore more complex nonlinear relationships.</li>
+  <li><strong>Mean Reversion Assumption:</strong> The strategy assumes the spread between portfolio and index will revert to the mean (in the near term) — this may not always hold in volatile or trending markets.</li>
+  <li><strong>Transaction Costs:</strong> Backtests currently do not include trading costs, which can erode profitability especially in high-turnover environments.</li>
+</ul>
+
+<h3 style="font-size: 18px; color: #333;"> Future Improvements</h3>
+
+<ul style="font-size: 15px; line-height: 1.7; color: #444;">
+  <li><strong>Incorporate Transaction Costs:</strong> Simulate realistic cost models to better reflect net performance.</li>
+  <li><strong>LSTM Models for Spread Prediction:</strong> Integrate sequence models (e.g. LSTM, GRU) to predict spread direction rather than relying solely on z-score thresholds.</li>
+  <li><strong>Risk Management:</strong> Add stop-loss logic, volatility filters, or Sharpe-optimized portfolio weighting.</li>
+</ul>
+
 <h3 style="font-size: 18px; color: #333;"> Technologies Used</h3>
 
 <ul style="font-size: 15px; line-height: 1.7; color: #444;">
@@ -80,6 +91,12 @@ The app allows you to:
   <li>scikit-learn (PCA), NumPy, pandas</li>
   <li>Plotly for interactive visualization</li>
 </ul>
+
+<p style="margin-top: 10px;">
+  <a href="https://github.com/Ilse-hutten/index-arbitrage" style="font-size: 16px; color: white; background-color: #007acc; padding: 8px 14px; border-radius: 5px; text-decoration: none;">
+    🔗 View on GitHub
+  </a>
+</p>
 
 <p style="font-size: 15px; line-height: 1.7; margin-top: 30px;">
   <a href="https://ilse-hutten.github.io/my-portfolio/projects/" style="text-decoration: none; color: #007acc;">🔙 Back to Projects</a>
