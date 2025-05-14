@@ -39,7 +39,7 @@ This project implements a <strong>PCA-based index arbitrage trading strategy</st
 Below is a visualization of the <strong>FTSE100 index</strong> versus a <strong>replication portfolio</strong> constructed using the top 5 stocks identified by PCA at a selected point in time.
 </p>
 
-<img src="https://Ilse-hutten.github.io/my-portfolio/assets/images/replication_ftse.jpg" alt="FTSE Replication" style="width: 100%; border-radius: 8px; margin: 20px 0;" />
+<img src="https://Ilse-hutten.github.io/my-portfolio/assets/images/replication_ftse.png" alt="FTSE Replication" style="width: 100%; border-radius: 8px; margin: 20px 0;" />
 
 <p style="font-size: 15px; line-height: 1.7; color: #444;">
 While the replicated portfolio broadly follows the index, some deviations are visible — primarily due to:
@@ -72,7 +72,7 @@ The app allows you to:
   <li>Backtest the strategy under varying assumptions</li>
 </ul>
 
-<video autoplay loop muted playsinline style="width: 80%; border-radius: 8px; margin: 20px 0;">
+<video autoplay loop muted playsinline style="width: 100%; border-radius: 8px; margin: 20px 0;">
   <source src="https://Ilse-hutten.github.io/my-portfolio/assets/videos/pca_streamlit_demo.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
