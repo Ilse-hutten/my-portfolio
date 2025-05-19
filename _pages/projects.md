@@ -85,7 +85,6 @@ Here are some of my recent data science and machine learning projects:
       <a href="./project-telco-churn">Read more →</a>
     </div>
   </div>
-</div>
 
   <div class="project-card">
       <img src="{{ '/assets/images/strategy_header.png' | relative_url }}" alt="Strategy Simulator">
