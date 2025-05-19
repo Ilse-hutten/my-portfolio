@@ -87,6 +87,15 @@ Here are some of my recent data science and machine learning projects:
   </div>
 </div>
 
+  <div class="project-card">
+      <img src="{{ '/assets/images/strategy_header.png' | relative_url }}" alt="Strategy Simulator">
+      <div class="project-card-content">
+        <h3>Operational Strategy Simulator</h3>
+        <p>Simulates initiative performance and optimizes ROI or ARR under budget and resource constraints. Includes Monte Carlo analysis.</p>
+        <a href="./project-strategy-simulator">Read more →</a>
+      </div>
+    </div>
+
   <!-- Add more cards here -->
 </div>
 
