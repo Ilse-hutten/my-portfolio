@@ -15,12 +15,28 @@ Hi! I’m Ilse — a data enthusiast with a background in investment banking. I 
 
 <div style="background-color: #f9f9f9; padding: 20px; border-radius: 10px;">
 
-<ul style="font-size: 16px; line-height: 1.7; list-style-type: none; padding-left: 0; color: #444;">
-  <li style="margin-bottom: 10px;"> 🔹 <strong>Location:</strong> London</li>
-  <li style="margin-bottom: 10px;"> 🔹 <strong>Interests:</strong> Machine learning, fintech, financial analytics</li>
-  <li style="margin-bottom: 10px;"> 🔹 <strong>Skills:</strong> Python, SQL, scikit-learn, Pandas, TensorFlow, Time Series, NLP, Deep Learning</li>
-  <li style="margin-bottom: 10px;"> 🔹 <strong>Education:</strong> MSc Finance & Investments, Copenhagen Business School · BSc International Business Administration, Tilburg University</li>
-  <li> 🔹 <strong>Languages:</strong> Dutch, English</li>
-</ul>
+<table style="font-size: 16px; line-height: 1.7; color: #444;">
+  <tr>
+    <td style="vertical-align: top; padding-right: 10px;">🔹</td>
+    <td><strong>Location:</strong> London</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: top;">🔹</td>
+    <td><strong>Interests:</strong> Machine learning, fintech, financial analytics</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: top;">🔹</td>
+    <td><strong>Skills:</strong> Python, SQL, scikit-learn, Pandas, TensorFlow, Time Series, NLP, Deep Learning</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: top;">🔹</td>
+    <td><strong>Education:</strong> MSc Finance & Investments, Copenhagen Business School · BSc International Business Administration, Tilburg University</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: top;">🔹</td>
+    <td><strong>Languages:</strong> Dutch, English</td>
+  </tr>
+</table>
+
 
 </div>
