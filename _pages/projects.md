@@ -2,6 +2,8 @@
 permalink: /projects/
 title: "Projects"
 layout: single
+classes: wide
+author_profile: true
 ---
 
 
@@ -90,7 +92,7 @@ Here are some of my recent data science and machine learning projects:
       <img src="{{ '/assets/images/simulator_header.png' | relative_url }}" alt="Strategy Simulator">
       <div class="project-card-content">
         <h3>Operational Strategy Simulator</h3>
-        <p>Simulates initiative performance and optimizes ROI or ARR under budget and resource constraints. Includes Monte Carlo analysis.</p>
+        <p>Simulated initiative performance and optimizes ROI or ARR under budget and resource constraints. Includes Monte Carlo analysis.</p>
         <a href="./project-strategy-simulator">Read more →</a>
       </div>
     </div>
