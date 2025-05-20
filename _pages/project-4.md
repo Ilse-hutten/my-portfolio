@@ -40,13 +40,13 @@ This Streamlit app helps simulate and optimize combinations of strategic initiat
   <li><strong>ARR vs Engineering:</strong> Higher ARR generally requires more effort, but rare low-effort/high-impact outliers exist.</li>
 </ul>
 
-<img src="https://Ilse-hutten.github.io/my-portfolio/assets/images/initiative_performace.png" alt="exploratory insights" style="width: 100%; border-radius: 8px;"/>
+<img src="https://Ilse-hutten.github.io/my-portfolio/assets/images/initiative_performance.png" alt="exploratory insights" style="width: 80%; border-radius: 8px;"/>
 
 <h3 style="font-size: 18px; color: #333;">Monte Carlo Simulation</h3>
 <p style="font-size: 15px; color: #444;">
 Each run simulates ARR outcomes with randomized noise based on initiative confidence levels. In "Bad" scenarios, additional cost overruns are introduced. This enables risk-adjusted ROI forecasting across scenarios.
 </p>
-<img src="https://Ilse-hutten.github.io/my-portfolio/assets/images/monte_carlo_roi.png" alt="exploratory insights" style="width: 100%; border-radius: 8px;"/>
+<img src="https://Ilse-hutten.github.io/my-portfolio/assets/images/monte_carlo_roi.png" alt="exploratory insights" style="width: 80%; border-radius: 8px;"/>
 
 <video autoplay loop muted playsinline style="width: 100%; border-radius: 8px; margin: 20px 0;">
   <source src="https://Ilse-hutten.github.io/my-portfolio/assets/videos/strategy_simulator.mp4" type="video/mp4">
