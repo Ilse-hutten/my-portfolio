@@ -15,28 +15,29 @@ Hi! I’m Ilse — a data enthusiast with a background in investment banking. I 
 
 <div style="background-color: #f9f9f9; padding: 20px; border-radius: 10px;">
 
-<table style="font-size: 16px; line-height: 1.7; color: #444;">
+<table style="font-size: 16px; line-height: 1.7; color: #444; border-collapse: collapse; border: none;">
   <tr>
-    <td style="vertical-align: top; padding-right: 10px;">🔹</td>
-    <td><strong>Location:</strong> London</td>
+    <td style="vertical-align: top; padding-right: 10px; border: none;">🔹</td>
+    <td style="border: none;"><strong>Location:</strong> London</td>
   </tr>
   <tr>
-    <td style="vertical-align: top;">🔹</td>
-    <td><strong>Interests:</strong> Machine learning, fintech, financial analytics</td>
+    <td style="vertical-align: top; padding-right: 10px; border: none;">🔹</td>
+    <td style="border: none;"><strong>Interests:</strong> Machine learning, fintech, financial analytics</td>
   </tr>
   <tr>
-    <td style="vertical-align: top;">🔹</td>
-    <td><strong>Skills:</strong> Python, SQL, scikit-learn, Pandas, TensorFlow, Time Series, NLP, Deep Learning</td>
+    <td style="vertical-align: top; padding-right: 10px; border: none;">🔹</td>
+    <td style="border: none;"><strong>Skills:</strong> Python, SQL, scikit-learn, Pandas, TensorFlow, Time Series, NLP, Deep Learning</td>
   </tr>
   <tr>
-    <td style="vertical-align: top;">🔹</td>
-    <td><strong>Education:</strong> MSc Finance & Investments, Copenhagen Business School · BSc International Business Administration, Tilburg University</td>
+    <td style="vertical-align: top; padding-right: 10px; border: none;">🔹</td>
+    <td style="border: none;"><strong>Education:</strong> MSc Finance & Investments, Copenhagen Business School · BSc International Business Administration, Tilburg University</td>
   </tr>
   <tr>
-    <td style="vertical-align: top;">🔹</td>
-    <td><strong>Languages:</strong> Dutch, English</td>
+    <td style="vertical-align: top; padding-right: 10px; border: none;">🔹</td>
+    <td style="border: none;"><strong>Languages:</strong> Dutch, English</td>
   </tr>
 </table>
+
 
 
 </div>
