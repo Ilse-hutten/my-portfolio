@@ -100,7 +100,7 @@ Here are some of my recent data science and machine learning projects:
 
 <hr>
 
-**Additional GitHub Projects**
+<p style="font-size: 18px; font-weight: bold; margin-bottom: 0.5rem;">Additional GitHub Projects</p>
 
 <div style="font-size: 15px; line-height: 1.6; color: #444;">
 
