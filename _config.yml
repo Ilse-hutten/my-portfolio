@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Ilse Hutten"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Data scientist passionate about machine learning, analytics, and creating impact through data."
+  bio    : "Passionate about machine learning, analytics, and creating impact through data."
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"

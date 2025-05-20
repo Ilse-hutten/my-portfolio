@@ -100,23 +100,20 @@ Here are some of my recent data science and machine learning projects:
 
 ---
 
-
 ### 🔗 Additional GitHub Projects
 
-<div style="font-size: 15px; line-height: 1.6;">
+<div style="font-size: 15px; line-height: 1.6; color: #444;">
 
-- <strong><a href="https://github.com/Ilse-hutten/arima-times-series" target="_blank">ARIMA Time Series Forecasting</a></strong><br>
-  <em>Project demonstrates the use of the ARIMA (AutoRegressive Integrated Moving Average) model for time series forecasting.</em>
-  <br><br>
+<strong><a href="https://github.com/Ilse-hutten/arima-times-series" target="_blank">ARIMA Time Series Forecasting</a></strong><br>
+<em>Uses the ARIMA (AutoRegressive Integrated Moving Average) model for time series forecasting.</em><br><br>
 
-- <strong><a href="https://github.com/Ilse-hutten/movie-reviews-classifier" target="_blank">Movie Review Sentiment Classifier</a></strong><br>
-  <em>Classifies movie reviews as positive or negative using Natural Language Processing (NLP) and a Naive Bayes model.</em>
-  <br><br>
+<strong><a href="https://github.com/Ilse-hutten/movie-reviews-classifier" target="_blank">Movie Review Sentiment Classifier</a></strong><br>
+<em>Classifies movie reviews as positive or negative using NLP and a Naive Bayes model.</em><br><br>
 
-- <strong><a href="https://github.com/Ilse-hutten/gradient-descent-manual" target="_blank">Gradient Descent Manual</a></strong><br>
-  <em>Implementation of the Gradient Descent algorithm from scratch to understand how optimization works at a mathematical level.</em>
+<strong><a href="https://github.com/Ilse-hutten/gradient-descent-manual" target="_blank">Gradient Descent Manual</a></strong><br>
+<em>Implements gradient descent from scratch to understand optimization at a mathematical level.</em><br><br>
 
-- <strong><a href="https://github.com/Ilse-hutten/neural-network-finetuning" target="_blank">Neural Network Finetuning & Learning Rate Optimization</a></strong><br>
-  <em>Explores how different optimizers and learning rates affect model training.</em>
+<strong><a href="https://github.com/Ilse-hutten/neural-network-finetuning" target="_blank">Neural Network Finetuning & Learning Rate Optimization</a></strong><br>
+<em>Explores how optimizers, learning rates, and decay strategies affect model training.</em>
 
 </div>
