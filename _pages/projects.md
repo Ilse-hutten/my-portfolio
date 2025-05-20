@@ -102,6 +102,7 @@ Here are some of my recent data science and machine learning projects:
 
 
 ### 🔗 Additional GitHub Projects
+
 <div style="font-size: 15px; line-height: 1.6;">
 
 - <strong><a href="https://github.com/Ilse-hutten/arima-times-series" target="_blank">ARIMA Time Series Forecasting</a></strong><br>
@@ -114,5 +115,8 @@ Here are some of my recent data science and machine learning projects:
 
 - <strong><a href="https://github.com/Ilse-hutten/gradient-descent-manual" target="_blank">Gradient Descent Manual</a></strong><br>
   <em>Implementation of the Gradient Descent algorithm from scratch to understand how optimization works at a mathematical level.</em>
+
+- <strong><a href="https://github.com/Ilse-hutten/neural-network-finetuning" target="_blank">Neural Network Finetuning & Learning Rate Optimization</a></strong><br>
+  <em>Explores how different optimizers and learning rates affect model training.</em>
 
 </div>
