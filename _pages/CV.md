@@ -164,7 +164,7 @@ author_profile: true
 
   <div class="cv-section">
     <h2>Profile</h2>
-    <p>Data science professional with 3+ years of experience in investment banking and financial analysis. Expertise in machine learning, data analysis, and financial modeling.</p>
+    <p>Professional with 3+ years of experience in investment banking and financial analysis. Expertise in machine learning, data analysis, and financial modeling.</p>
   </div>
 
   <div class="cv-section">
@@ -172,7 +172,7 @@ author_profile: true
     <div class="cv-skills">
       <p><strong>Programming:</strong> Python, SQL</p>
       <p><strong>Libraries:</strong> Pandas, NumPy, scikit-learn, Matplotlib, Seaborn, TensorFlow, Statsmodels</p>
-      <p><strong>Techniques:</strong> Supervised & Unsupervised Learning, PCA, NLP, Deep Learning, Time Series Forecasting, Statistical Analysis, Financial Modelling</p>
+      <p><strong>Techniques:</strong> Supervised & Unsupervised Learning, PCA, NLP, Deep Learning, Time Series Forecasting, Statistical Analysis, Financial Modeling</p>
       <p><strong>Environments:</strong> Jupyter, Git, Google Colab, Streamlit, VS Code</p>
     </div>
   </div>

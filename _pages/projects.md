@@ -98,8 +98,9 @@ Here are some of my recent data science and machine learning projects:
   <!-- Add more cards here -->
 </div>
 
+<hr>
 
-### 🔗 Additional GitHub Projects
+**Additional GitHub Projects**
 
 <div style="font-size: 15px; line-height: 1.6; color: #444;">
 
